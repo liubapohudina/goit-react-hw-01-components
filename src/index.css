@@ -43,3 +43,8 @@ img {
 #root {
   padding: 50px;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
