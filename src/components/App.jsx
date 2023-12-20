@@ -1,6 +1,6 @@
 
 import React from 'react';
-import user from './user.json';
+import user from '../data/user';
 import css from '../components/Profile.module.css';
 //console.log(css)
 
