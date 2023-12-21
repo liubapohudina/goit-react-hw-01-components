@@ -2,6 +2,7 @@ import FriendListItem from './FriendListItem';
 import css from '../FriendList/FriendList.module.css';
 import PropTypes from "prop-types";
 
+
 const FriendList = ({friends}) => {
     const element = friends.map(({ avatar, id, name, isOnline }) =>
         <FriendListItem

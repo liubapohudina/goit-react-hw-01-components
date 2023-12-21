@@ -8,7 +8,8 @@ const TransactionHistory = ({ items }) => {
             <td>{type}</td>
             <td>{amount}</td>
             <td>{currency}</td>
-    </tr>)
+        </tr>)
+    
     return (
         <table className={css.transactionHistory}>
   <thead>

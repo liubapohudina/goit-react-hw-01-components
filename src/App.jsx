@@ -8,6 +8,7 @@ import data from '../src/data/data';
 import friends from '../src/data/friends';
 import transactions from '../src/data/transactions';
 
+
 function App() {
   return (
     <div className="App">
